@@ -211,6 +211,13 @@ Section
   background-size: cover;
 }
 
+@media only screen and (max-width: 992px) {
+ #hero{
+  background: url("../img/shubhamshub.JPG") top center;
+  background-attachment: fixed;
+ }
+  }
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
