@@ -201,8 +201,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# 
-Section
+# hero Section
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -216,7 +215,7 @@ Section
   background: url("../img/shubhamshub.JPG") top center;
   background-attachment: fixed;
  }
-  }
+}  
 
 #hero:before {
   content: "";
@@ -257,11 +256,6 @@ Section
   border-bottom: 3px solid #149ddd;
 }
 
-  @media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
 
 @media (max-width: 768px) {
   #hero h1 {
